@@ -10,11 +10,12 @@ namespace Work01
     {
         static void Main(string[] args)
         {
+
             sayHello();
             Console.ReadLine();
         }
 
-        void sayHello()
+        static void sayHello()
         {
             Console.WriteLine("Hello World.");
 
